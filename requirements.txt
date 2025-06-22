@@ -1,20 +1,12 @@
-# Core app
-streamlit==1.35.0
-langchain==0.3.24
+streamlit
+langchain
+chromadb
+sentence-transformers
+huggingface-hub
+PyMuPDF
+pdfplumber
+cohere
+tiktoken
+python-dotenv
 
-# Embeddings and Vector Store
-sentence-transformers==2.2.2
-torch==2.1.2
-chromadb==0.5.2
-
-# PDF reading
-PyMuPDF==1.25.5
-
-# File handling and dependencies
-python-dotenv==1.0.1
-tqdm==4.66.2
-pandas==2.2.2
-
-# Optional, helpful for UI (used by some LangChain features)
-requests==2.32.3
 
