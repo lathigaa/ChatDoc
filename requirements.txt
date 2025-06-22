@@ -1,4 +1,5 @@
 streamlit
+streamlit-pdf-viewer
 langchain
 chromadb
 sentence-transformers
@@ -8,5 +9,19 @@ pdfplumber
 cohere
 tiktoken
 python-dotenv
-
-
+pandas
+scikit-learn
+numpy
+scipy
+torch
+fsspec
+requests
+jinja2
+pydantic
+pydantic-settings
+openai
+watchdog
+markdown-it-py
+mdurl
+pygments
+rich
