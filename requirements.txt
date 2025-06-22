@@ -1,36 +1,40 @@
-# Core app requirements
-streamlit
-streamlit-pdf-viewer
+# Core
+streamlit==1.45.0
 python-dotenv
+pandas
+PyMuPDF
 
-# LangChain ecosystem
-langchain
-langchain-core
+# Langchain ecosystem
+langchain==0.3.24
 langchain-community
-langchain-openai
+langchain-core
 langchain-huggingface
 langchain-cohere
 langchain-experimental
+langchain-openai
 
-# Embeddings & vector DB
-sentence-transformers
-chromadb
+# Embeddings
+sentence-transformers==4.1.0
+transformers==4.41.0
+torch
 
-# LLM APIs
-openai
-cohere
-huggingface-hub
+# Vector Store
+chromadb==0.4.24  # STABLE working version
+chromadb-hnswlib==0.7.3  # Optional: Avoid latest
 
-# PDF processing
-PyMuPDF
+# PDF Parsing
+pdfminer.six
 pdfplumber
 
-# Misc
+# UI
+streamlit-pdf-viewer==0.0.22
+
+# Other essentials
 tiktoken
-torch
-numpy
 scikit-learn
-pandas
+numpy
+requests
+
  
 
 
