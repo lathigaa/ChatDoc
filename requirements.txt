@@ -10,6 +10,7 @@ langchain-community
 langchain-openai
 langchain-huggingface
 langchain-cohere
+langchain-experimental
 
 # Embeddings & vector DB
 sentence-transformers
