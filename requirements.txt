@@ -1,21 +1,35 @@
+# Core app requirements
 streamlit
 streamlit-pdf-viewer
+python-dotenv
+
+# LangChain ecosystem
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-openai
 langchain-huggingface
-chromadb
+langchain-cohere
+
+# Embeddings & vector DB
 sentence-transformers
-huggingface-hub
+chromadb
+
+# LLM APIs
 openai
 cohere
-pdfplumber
+huggingface-hub
+
+# PDF processing
 PyMuPDF
-python-dotenv
+pdfplumber
+
+# Misc
 tiktoken
 torch
 numpy
 scikit-learn
 pandas
+ 
+
 
